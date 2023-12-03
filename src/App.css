@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.App {
+.AppContainer {
   text-align: center;
 }
 
@@ -13,19 +13,19 @@
   pointer-events: none;
 }
 
-.shimmer{
+.shimmer {
   background-color: pink;
   height: 200px;
-  margin:20px ;
-  background: url('https://media.tenor.com/64UaxgnTfx0AAAAC/memes-loading.gif') no-repeat center;
+  margin: 20px;
+  background: url('https://media.tenor.com/64UaxgnTfx0AAAAC/memes-loading.gif')
+    no-repeat center;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-
 }
 
-.list{
+.list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,29 +33,28 @@
   row-gap: 10px;
 }
 
-.card{
-  background-color:#fff;
+.card {
+  background-color: #fff;
   color: black;
-  border:1px solid black;
+  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 40%;
   height: 150px;
-  margin:2px 0;
+  margin: 2px 0;
   padding: 20px;
   column-gap: 20px;
 }
 
-.img{
-  border-radius:50%;
-  border:2px solid blue;
+.img {
+  border-radius: 50%;
+  border: 2px solid blue;
 }
 
-.details{
+.details {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: flex-end;
   flex-direction: column;
 }
-

@@ -4,7 +4,7 @@ import ListView from './components/ListView';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='AppContainer'>
       <ListView />
     </div>
   );
